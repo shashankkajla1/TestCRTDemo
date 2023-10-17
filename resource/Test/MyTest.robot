@@ -2,6 +2,7 @@
 Resource             ../common.robot
 Suite Setup           Setup Browser
 # Library               pyotp
+Library                QMobile
 
                
 #Suite Teardown        End Suite
@@ -20,6 +21,7 @@ Suite Setup           Setup Browser
 *** Test Cases ***
 My Test To Login & Perform MFA
     Login
+    Open Application    http://localhost:4723/wd/hub    alias=iOS
     
 
 
