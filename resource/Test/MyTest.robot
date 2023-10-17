@@ -1,7 +1,7 @@
 *** Settings ***
 Resource             ../common.robot
 Suite Setup           Setup Browser
-Library               pyotp
+# Library               pyotp
 
                
 #Suite Teardown        End Suite
