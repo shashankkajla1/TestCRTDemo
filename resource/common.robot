@@ -24,7 +24,7 @@ End Suite
 
 
 Login 
-    [Documentation] User should be login in SF Org
+    [Documentation]     User should be login in SF Org
     GoTo                     ${login_url}  
     TypeText                 username             ${user_name} 
     TypeText                 password             ${password}
