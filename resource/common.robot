@@ -20,7 +20,7 @@ Setup Browser
     Evaluate                      random.seed()         random
 
 End Suite
-  Close All Browser
+  Close All Browsers
 
 
 Login 
