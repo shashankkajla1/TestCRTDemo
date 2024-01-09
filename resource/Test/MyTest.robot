@@ -9,8 +9,8 @@ Suite Teardown    End Suite
 
 *** Variables ***
 ${type_Text}      xpath
-
-
+${val1}            Test
+${val2}            Test1
 
 
 
@@ -90,5 +90,8 @@ This is Jira-120
      
 
     
+  # xpath's
 
-
+    VerifyText                 //input[@class\='${val1}']
+    ClickText                 //input[@class\='${val2}']
+    ClicText               //a[text()\="Create a Page"]    timeout=30
