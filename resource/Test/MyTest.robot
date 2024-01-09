@@ -68,7 +68,7 @@ This is Jira-120
         ${var}                  MyName                      timeout=30
 
 
-        IF                      '${var}' ==                 '${type_Text}'
+        IF                      '${var}' ==  '${type_Text}'
         ClickText               perform
         BREAK
 
