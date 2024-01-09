@@ -7,8 +7,8 @@ Library      String
 
 *** Variables ***
 ${login_url}                https://tutorialsninja.com/demo/index.php?
-${user_name}                MohanLabs@gmail.com
-${password}                 M0007778
+${username}                
+${password}                 
 ${Browser}                  chrome
 
 
