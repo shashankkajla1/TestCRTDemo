@@ -1,5 +1,5 @@
 *** Settings ***
-Resource             ../common.robot
+Resource              ../common.robot
 Suite Setup           Setup Browser
 
                
