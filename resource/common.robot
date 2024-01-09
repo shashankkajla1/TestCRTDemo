@@ -8,7 +8,7 @@ Library      String
 *** Variables ***
 ${login_url}                https://d5h000008kjcqeaq-dev-ed.develop.my.salesforce.com/?
 ${user_name}                MohanLabs@gmail.com
-${password}                 Murli0007#
+${password}                 M0007778
 ${Browser}                  chrome
 
 
