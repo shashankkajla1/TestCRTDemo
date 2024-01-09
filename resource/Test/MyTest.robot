@@ -22,6 +22,7 @@ ${val2}            Test1
 This is Jira-120
     [Tags]        Jira-121        Reg        Sanity
     Login
+    Creating Customer in Sfdc     
     GoTo          https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
     ClickText     //input[@class\="Test" and @text\="Test"]                 timeout=30
     TypeText      Pass                        ${type_Text}    timeout=30
