@@ -33,6 +33,9 @@ Login
 
 
 
-
+Creating Customer in Sfdc 
+    [Documentation]    my Test Suite creating customer
+    [Arguments]        ${Var1_forFun}
+    ClickText          ${Var1_forFun}   
 
 
