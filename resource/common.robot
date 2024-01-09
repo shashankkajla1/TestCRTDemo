@@ -6,7 +6,7 @@ Library      String
 
 
 *** Variables ***
-${login_url}                https://d5h000008kjcqeaq-dev-ed.develop.my.salesforce.com/?
+${login_url}                https://tutorialsninja.com/demo/index.php?
 ${user_name}                MohanLabs@gmail.com
 ${password}                 M0007778
 ${Browser}                  chrome
