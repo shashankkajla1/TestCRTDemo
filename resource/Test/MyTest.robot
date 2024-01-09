@@ -21,6 +21,7 @@ ${val2}            Test1
 *** Test Cases ***
 This is Jira-120
     [Tags]        Jira-121        Reg        Sanity
+    Login
     GoTo          https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
     ClickText     //input[@class\="Test" and @text\="Test"]                 timeout=30
     TypeText      Pass                        ${type_Text}    timeout=30
