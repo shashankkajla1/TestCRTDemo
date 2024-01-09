@@ -8,7 +8,7 @@ Suite Teardown        End Suite
                
 
 *** Variables ***
-${typeText}   xpath 
+${typeText}                   xpath 
 
 
 
